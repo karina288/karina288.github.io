@@ -1,0 +1,58 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Brush Script MT;
+}
+
+body {
+	
+	background: whitesmoke;
+	height: 637px;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: #ff7979;
+	padding: 25px;
+	border-radius: 40px;
+	box-shadow: 0 0 40px;
+}
+
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #d63031;
+	color: #2d3436;
+	border-radius: 25px;
+	
+}
+
+.btn-pink {
+	background:#f78fb3;
+	color: #2d3436;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #2d3436;
+	border-radius: 25px;
+	text-align: right;
+}
